@@ -9,3 +9,8 @@ mayor que el inicial. """
 
 
 
+
+
+def largo_secuencia(num1,num2):
+    for x in range(num1,num2+1):
+        print(num1,num2)
