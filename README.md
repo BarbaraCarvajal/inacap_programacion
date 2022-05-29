@@ -7,7 +7,7 @@
 Este repositorio abarca las actividades y ejercicios que se realizarán durante las clases.
 
 ### Colaboradores 👨🏻‍💻
-<<<<<<< HEAD
+
 [le01q](https://github.com/le01q)
 =======
 [le01q](https://github.com/le01q) 
