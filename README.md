@@ -14,4 +14,4 @@ Este repositorio abarca las actividades y ejercicios que se realizarán durante 
 
 ![cb97514d85c12ba](https://user-images.githubusercontent.com/89460645/170884328-31b79faa-f3c5-4cc8-928e-a62758b58056.gif)
 
->>>>>>> 697c97177a2a9da3ca7a80ef9b7c142280a3ce42
+
