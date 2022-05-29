@@ -8,3 +8,19 @@ El tercero solo debe ser 0.
 - Debe  contar  cuanto  le  cuesta  a  llegar 
  a  obtener  los  3  valores  que  exige,  arrojando  una  estadística  al 
 respecto."""
+
+def muchas_weas():
+    sw = True
+    while sw == True:
+        valor1 = int(input("Ingrese el primer valor: "))
+        if valor1 %2 == 0:
+            while sw == True:
+                valor2 = int(input("Ingrese el segundo valor: "))
+                if valor2 < 0:
+                    while sw == True:
+                        valor3 = int(input("Ingrese el tercer valor: "))
+                        if valor3 == 0:
+                            promedio = valor1 + valor2 /2
+                            print(f"El promedio de {valor1}, {valor2} y {valor3} es: {promedio}")
+                            sw = False
+muchas_weas()

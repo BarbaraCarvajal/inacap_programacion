@@ -8,9 +8,14 @@ validando que el valor final de la secuencia sea
 mayor que el inicial. """
 
 
+def largo_secuencia():
+    sw = True
+    numero1 = int(input("Ingrese el primer valor: "))
+    while sw == True:
+        numero2 = int(input("Ingrese el segundo valor: "))
+        if numero2 >= numero1:
+            sw=False
+        for x in range(numero1,numero2+1):
+            print(x)
 
-
-
-def largo_secuencia(num1,num2):
-    for x in range(num1,num2+1):
-        print(num1,num2)
+largo_secuencia()

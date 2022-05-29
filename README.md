@@ -6,5 +6,5 @@
 ### Acerca del repositorio ❔
 Este repositorio abarca las actividades y ejercicios que se realizarán durante las clases.
 
-### Colaboradores 👩‍💻
+### Colaboradores 👨🏻‍💻
 [le01q](https://github.com/le01q)

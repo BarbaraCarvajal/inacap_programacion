@@ -2,3 +2,11 @@
  para el mismo se introducirán 3 sujetos, 3 verbos y 
 3 predicados. El algoritmo generará tres frases al azar 
 con cualquier sujeto, verbo y predicado."""
+
+
+def mensaje():
+    print("Ingresa el valor: ")
+
+print("fdsfs")
+mensaje("hola")
+print("sffsd")
