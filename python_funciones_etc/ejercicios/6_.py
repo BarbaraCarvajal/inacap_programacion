@@ -8,5 +8,5 @@ def contador_vocales():
         if letra.lower() in "aeiou":
             contador += 1
     print(f"En el siguiente texto: {frase}, hay {contador} vocales")
-
+    
 contador_vocales()

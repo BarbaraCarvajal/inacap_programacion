@@ -4,12 +4,13 @@ divisores de ese número de manera decreciente.
 Ejemplo: número 75, divisores: 75, 25, 15, 5, 3, 1. """
 
 
-def divisores():
-    num = int(input("Ingrese un número mayor que cero\n"))
+def divisores(num):
     if num>0:
-        x=1
-        for x in range(num):
+        for x in range(num,0,-1):
             if num%x == 0:
-                divisor = x
-                print(divisor)
-divisores()
+                print(x) 
+
+divisores((75))
+
+               
+              

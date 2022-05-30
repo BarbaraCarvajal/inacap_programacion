@@ -9,7 +9,7 @@ El tercero solo debe ser 0.
  a  obtener  los  3  valores  que  exige,  arrojando  una  estadística  al 
 respecto."""
 
-def muchas_weas():
+def muchas_cosas():
     sw = True
     while sw == True:
         valor1 = int(input("Ingrese el primer valor: "))
@@ -23,4 +23,4 @@ def muchas_weas():
                             promedio = valor1 + valor2 /2
                             print(f"El promedio de {valor1}, {valor2} y {valor3} es: {promedio}")
                             sw = False
-muchas_weas()
+muchas_cosas()
