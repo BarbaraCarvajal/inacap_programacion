@@ -47,28 +47,18 @@ print(is_vocal('a'))
 def suma(lista):
     resultado = 0
     for x in lista:
-        resultado +=  x
-        return print(resultado)
+        resultado += x
+    print(resultado)
 
-suma([1,2,3,4,5])
-        
-def sum(lista):
-    result = 0
-    for n in lista:
-        result = result + (n)
-    print(result)
+suma([1,2,3,]) 
 
-print(suma([1,2,3,4,5]))
+def multiplicacion(lista):
+    resultado2 = 1
+    for x in lista:
+        resultado2 = resultado2 * x
+    print(resultado2)
 
-"""def mult_lista(lista):
-    mult = 1
-    for i in lista:
-        mult *= i
-    return mult
-
-print(mult_lista([1,2,3,4,4]))
-"""
-
+multiplicacion([1,2,3,4])
 
 
 # 5 Definir una función inversa() que calcule 
@@ -93,7 +83,7 @@ def es_palindromo():
     else:
         return print(False)
 
-es_palindromo()
+#es_palindromo()
 
 
 # 7 Definir una función superposicion() que tome dos listas y 
@@ -101,12 +91,32 @@ es_palindromo()
 # común o devuelva False de lo contrario. 
 # Escribir la función usando el bucle for anidado.
 
-
+def superposicion(lista1,lista2):
+    for x in lista1:
+        for i in lista2:
+            if x == i:
+                return True
+    
+    return False 
+print('Superposicion:')
+print(superposicion([1,2,3],[7,2,5]))
 
  # 8 Definir una función generar_n_caracteres()
  # que tome un entero n y devuelva el caracter multiplicado por n. 
  # Por ejemplo: generar_n_caracteres(5, "x") debería devolver "xxxxx".
 
+def generar_n_caracteres(num,caracter):
+        print(caracter*num)
+
+
+generar_n_caracteres(5,"*")
+
 # 9 Definir un histograma procedimiento() que tome una 
 # lista de números enteros e imprima un histograma en la pantalla. 
 # Ejemplo: procedimiento([4, 9, 7]) debería imprimir lo siguiente"""""
+
+def procedimiento(lista):
+    for x in lista:
+        print(x*"*")
+
+procedimiento([3,4,3])

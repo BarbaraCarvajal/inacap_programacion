@@ -7,3 +7,4 @@ def print_1():
 
 def print_2():
     return 2
+
