@@ -5,6 +5,7 @@
 
 ### Acerca del repositorio 👀
 Este repositorio abarca las actividades y ejercicios que se realizarán durante las clases.
+Hay ejercicios con ciclos While, For, y creación e importación de funciones.
 
 ### Colaboradores 👨🏻‍💻
 
