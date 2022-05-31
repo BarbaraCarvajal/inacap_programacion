@@ -55,7 +55,7 @@ suma([1,2,3,])
 def multiplicacion(lista):
     resultado2 = 1
     for x in lista:
-        resultado2 = resultado2 * x
+        resultado2 *= x
     print(resultado2)
 
 multiplicacion([1,2,3,4])
