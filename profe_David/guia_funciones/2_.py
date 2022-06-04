@@ -1,3 +1,7 @@
+import os
+os.system("clear") # cls para windows
+#genera un limpiado de pantalla
+
 """
 Desarrollar un programa que solicite la carga de tres valores y muestre el 
 menor. Desde el bloque principal del programa llamar 2 veces a dicha 

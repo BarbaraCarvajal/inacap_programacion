@@ -10,7 +10,7 @@ def divisores(num):
             if num%x == 0:
                 print(x) 
 
-divisores((75))
+divisores(75)
 
                
               

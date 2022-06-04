@@ -13,9 +13,11 @@ def largo_secuencia():
     numero1 = int(input("Ingrese el primer valor: "))
     while sw == True:
         numero2 = int(input("Ingrese el segundo valor: "))
-        if numero2 >= numero1:
+        if numero2 >= numero1 and numero2 !=  numero1:
             sw=False
         for x in range(numero1,numero2+1):
-            print(x)
+            print(x, end= " - ")
 
 largo_secuencia()
+
+#practicar el pedir el sw al usuario
